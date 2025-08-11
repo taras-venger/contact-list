@@ -12,13 +12,14 @@ function routeToController($path, $routes) {
     if (array_key_exists($path, $routes)) {
         require $routes[$path];
     } else {
-        abort(404);
+        abort();
     }
 }   
 
-function abort($code = 404) {
+function abort($code = Response::NOT_FOUND) {
     http_response_code($code);
-    exit;
+    require "views/{$code}.view.php";
+    die();
 }
 
 routeToController($path, $routes);
