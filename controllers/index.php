@@ -1,4 +1,4 @@
 <?php
 
-header("Location: /users");
+header("Location: /contacts");
 exit;

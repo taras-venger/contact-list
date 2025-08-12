@@ -4,8 +4,8 @@
       <div class="flex items-center">
           <div class="flex items-baseline space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
-            <a href="#" aria-current="page" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Home</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Add user</a>
+            <a href="/contacts" aria-current="page" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Contacts</a>
+            <a href="/contacts/create" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Add Contact</a>
           </div>
       </div>
       <div>

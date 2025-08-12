@@ -4,8 +4,8 @@ $path = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
     '/' => 'controllers/index.php',
-    '/users' => 'controllers/users.php',
-    '/users/create' => 'controllers/create_user.php',
+    '/contacts' => 'controllers/contacts.php',
+    '/contacts/create' => 'controllers/contact_create.php',
 ];
 
 function routeToController($path, $routes) {
